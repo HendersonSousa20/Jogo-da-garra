@@ -1,4 +1,4 @@
-
+r
 var playAgain_el = document.querySelector("#play-again")
 var download_el = document.querySelector("#download")
 var window_el = document.querySelector("#result-window")
@@ -31,7 +31,7 @@ download_el.addEventListener("click", () => {
 
 
 playAgain_el.addEventListener("click", ()=> {
-    window.location.replace("game.html");
+    window.location.replace("index.html");
     window_el.style.opacity = "0"
     window_el.style.transform = "translateY(10px)"
     download_el.style.opacity = "0"
